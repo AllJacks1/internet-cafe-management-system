@@ -1,1 +1,0 @@
-# internet-cafe-management-system
