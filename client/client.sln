@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35931.197 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "internet-cafe-management-system", "internet-cafe-management-system\internet-cafe-management-system.vbproj", "{223F7AEA-8733-4629-A2A6-BADD96231575}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "client", "client\client.vbproj", "{047C90C0-F29C-4692-8A64-30DE14C026D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{223F7AEA-8733-4629-A2A6-BADD96231575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{223F7AEA-8733-4629-A2A6-BADD96231575}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{223F7AEA-8733-4629-A2A6-BADD96231575}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{223F7AEA-8733-4629-A2A6-BADD96231575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{047C90C0-F29C-4692-8A64-30DE14C026D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{047C90C0-F29C-4692-8A64-30DE14C026D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{047C90C0-F29C-4692-8A64-30DE14C026D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{047C90C0-F29C-4692-8A64-30DE14C026D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {90C593DA-F970-4832-A6AB-D0DAF681C544}
+		SolutionGuid = {1BF48FCB-C0B8-450C-BAAF-CB8868AF136B}
 	EndGlobalSection
 EndGlobal
