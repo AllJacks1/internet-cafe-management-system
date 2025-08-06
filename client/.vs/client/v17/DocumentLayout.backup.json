@@ -30,8 +30,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LockScreen.vb [Design]",
+              "DocumentMoniker": "D:\\Github Repos\\internet-cafe-management-system\\client\\client\\screens\\LockScreen.vb",
+              "RelativeDocumentMoniker": "client\\screens\\LockScreen.vb",
+              "ToolTip": "D:\\Github Repos\\internet-cafe-management-system\\client\\client\\screens\\LockScreen.vb [Design]",
+              "RelativeToolTip": "client\\screens\\LockScreen.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-08-06T07:31:02.707Z",
+              "EditorCaption": " [Design]"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -40,7 +52,7 @@
               "RelativeDocumentMoniker": "client\\screens\\LockScreen.Designer.vb",
               "ToolTip": "D:\\Github Repos\\internet-cafe-management-system\\client\\client\\screens\\LockScreen.Designer.vb",
               "RelativeToolTip": "client\\screens\\LockScreen.Designer.vb",
-              "ViewState": "AgIAACIAAAAAAAAAAAAgwC0AAABPAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAqwBwAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-08-05T13:24:44.048Z",
               "EditorCaption": ""
@@ -77,22 +89,10 @@
               "RelativeDocumentMoniker": "client\\screens\\LockScreen.vb",
               "ToolTip": "D:\\Github Repos\\internet-cafe-management-system\\client\\client\\screens\\LockScreen.vb",
               "RelativeToolTip": "client\\screens\\LockScreen.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAowCYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-08-05T10:00:02.705Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LockScreen.vb [Design]",
-              "DocumentMoniker": "D:\\Github Repos\\internet-cafe-management-system\\client\\client\\screens\\LockScreen.vb",
-              "RelativeDocumentMoniker": "client\\screens\\LockScreen.vb",
-              "ToolTip": "D:\\Github Repos\\internet-cafe-management-system\\client\\client\\screens\\LockScreen.vb [Design]",
-              "RelativeToolTip": "client\\screens\\LockScreen.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-08-05T09:47:54.243Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

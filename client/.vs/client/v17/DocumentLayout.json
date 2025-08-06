@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Github Repos\\internet-cafe-management-system\\client\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{047C90C0-F29C-4692-8A64-30DE14C026D1}|client\\client.vbproj|d:\\github repos\\internet-cafe-management-system\\client\\client\\screens\\lockscreen.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{047C90C0-F29C-4692-8A64-30DE14C026D1}|client\\client.vbproj|solutionrelative:client\\screens\\lockscreen.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{047C90C0-F29C-4692-8A64-30DE14C026D1}|client\\client.vbproj|d:\\github repos\\internet-cafe-management-system\\client\\client\\screens\\lockscreen.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{047C90C0-F29C-4692-8A64-30DE14C026D1}|client\\client.vbproj|solutionrelative:client\\screens\\lockscreen.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{047C90C0-F29C-4692-8A64-30DE14C026D1}|client\\client.vbproj|d:\\github repos\\internet-cafe-management-system\\client\\client\\screens\\lockscreen.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{047C90C0-F29C-4692-8A64-30DE14C026D1}|client\\client.vbproj|solutionrelative:client\\screens\\lockscreen.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{047C90C0-F29C-4692-8A64-30DE14C026D1}|client\\client.vbproj|d:\\github repos\\internet-cafe-management-system\\client\\client\\screens\\lockscreen.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{047C90C0-F29C-4692-8A64-30DE14C026D1}|client\\client.vbproj|solutionrelative:client\\screens\\lockscreen.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{047C90C0-F29C-4692-8A64-30DE14C026D1}|client\\client.vbproj|d:\\github repos\\internet-cafe-management-system\\client\\client\\screens\\timer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{047C90C0-F29C-4692-8A64-30DE14C026D1}|client\\client.vbproj|d:\\github repos\\internet-cafe-management-system\\client\\client\\screens\\dashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{047C90C0-F29C-4692-8A64-30DE14C026D1}|client\\client.vbproj|solutionrelative:client\\screens\\dashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{047C90C0-F29C-4692-8A64-30DE14C026D1}|client\\client.vbproj|d:\\github repos\\internet-cafe-management-system\\client\\client\\screens\\lockscreen.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{047C90C0-F29C-4692-8A64-30DE14C026D1}|client\\client.vbproj|solutionrelative:client\\screens\\lockscreen.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,24 +30,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "LockScreen.vb [Design]",
+              "DocumentMoniker": "D:\\Github Repos\\internet-cafe-management-system\\client\\client\\screens\\LockScreen.vb",
+              "RelativeDocumentMoniker": "client\\screens\\LockScreen.vb",
+              "ToolTip": "D:\\Github Repos\\internet-cafe-management-system\\client\\client\\screens\\LockScreen.vb [Design]",
+              "RelativeToolTip": "client\\screens\\LockScreen.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-08-06T07:31:02.707Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "LockScreen.Designer.vb",
               "DocumentMoniker": "D:\\Github Repos\\internet-cafe-management-system\\client\\client\\screens\\LockScreen.Designer.vb",
               "RelativeDocumentMoniker": "client\\screens\\LockScreen.Designer.vb",
               "ToolTip": "D:\\Github Repos\\internet-cafe-management-system\\client\\client\\screens\\LockScreen.Designer.vb",
               "RelativeToolTip": "client\\screens\\LockScreen.Designer.vb",
-              "ViewState": "AgIAACIAAAAAAAAAAAAgwC0AAABPAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAABwAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-08-05T13:24:44.048Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Dashboard.vb [Design]",
               "DocumentMoniker": "D:\\Github Repos\\internet-cafe-management-system\\client\\client\\screens\\Dashboard.vb",
               "RelativeDocumentMoniker": "client\\screens\\Dashboard.vb",
@@ -59,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Timer.vb [Design]",
               "DocumentMoniker": "D:\\Github Repos\\internet-cafe-management-system\\client\\client\\screens\\Timer.vb",
               "RelativeDocumentMoniker": "client\\screens\\Timer.vb",
@@ -71,28 +83,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "LockScreen.vb",
               "DocumentMoniker": "D:\\Github Repos\\internet-cafe-management-system\\client\\client\\screens\\LockScreen.vb",
               "RelativeDocumentMoniker": "client\\screens\\LockScreen.vb",
               "ToolTip": "D:\\Github Repos\\internet-cafe-management-system\\client\\client\\screens\\LockScreen.vb",
               "RelativeToolTip": "client\\screens\\LockScreen.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAowCYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-08-05T10:00:02.705Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LockScreen.vb [Design]",
-              "DocumentMoniker": "D:\\Github Repos\\internet-cafe-management-system\\client\\client\\screens\\LockScreen.vb",
-              "RelativeDocumentMoniker": "client\\screens\\LockScreen.vb",
-              "ToolTip": "D:\\Github Repos\\internet-cafe-management-system\\client\\client\\screens\\LockScreen.vb [Design]",
-              "RelativeToolTip": "client\\screens\\LockScreen.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-08-05T09:47:54.243Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }
