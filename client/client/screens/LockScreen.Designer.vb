@@ -84,7 +84,7 @@ Partial Class LockScreen
         ' 
         lbl_timer.AutoSize = True
         lbl_timer.BackColor = Color.FromArgb(CByte(139), CByte(31), CByte(193))
-        lbl_timer.Font = New Font("Segoe UI Black", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lbl_timer.Font = New Font("Segoe UI Black", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lbl_timer.ForeColor = Color.White
         lbl_timer.Location = New Point(1662, 20)
         lbl_timer.Name = "lbl_timer"
@@ -108,7 +108,7 @@ Partial Class LockScreen
         ' 
         lbl_login.AutoSize = True
         lbl_login.BackColor = Color.FromArgb(CByte(139), CByte(31), CByte(193))
-        lbl_login.Font = New Font("Segoe UI", 18.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lbl_login.Font = New Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lbl_login.ForeColor = Color.White
         lbl_login.Location = New Point(766, 913)
         lbl_login.Name = "lbl_login"
@@ -118,7 +118,7 @@ Partial Class LockScreen
         ' 
         ' LockScreen
         ' 
-        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
         ClientSize = New Size(1920, 1080)

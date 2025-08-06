@@ -30,6 +30,7 @@ Public Class LockScreen
         lbl_timer.Text = countdownValue
         ShutdownTimer.Interval = 1000
         ShutdownTimer.Start()
+        Me.KeyPreview = True
     End Sub
 
     Private Sub ShutdownTimer_Tick(sender As Object, e As EventArgs) Handles ShutdownTimer.Tick
@@ -38,6 +39,13 @@ Public Class LockScreen
 
         If countdownValue <= 0 Then
             ShutdownTimer.Stop()
+        End If
+    End Sub
+
+    Private Sub LockScreen_KeyDown(sender As Object, e As KeyEventArgs) Handles Me.KeyDown
+        If e.KeyCode = Keys.F1 Then
+            Dim timerForm As New TimerModal
+            timerForm.Show()
         End If
     End Sub
 End Class

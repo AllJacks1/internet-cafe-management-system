@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("client"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7bbb7dee9fde943ae8335e76bdae88053fe0fc0b"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+272cda7051439f666e6444e47091dfb308f78fa9"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("client"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("client"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
