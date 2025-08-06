@@ -1,0 +1,115 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model user_account {
+  username          String              @id
+  password          String
+  date_created      DateTime            @default(now())
+  date_updated      DateTime?
+  user_coin_history user_coin_history[]
+  user_pc_history   user_pc_history[]
+  user_info         user_info?
+  pc_session        pc_session[]
+}
+
+model user_info {
+  username     String       @unique
+  user_account user_account @relation(fields: [username], references: [username])
+  user_gender  Gender       @default(Male)
+  user_balance Float        @default(0)
+
+  @@index([username])
+}
+
+model user_coin_history {
+  user_coin_history_id String       @id @default(uuid())
+  username             String
+  user_account         user_account @relation(fields: [username], references: [username])
+  coin_inserted        Int
+  timestamp            DateTime     @default(now())
+
+  @@index([username])
+}
+
+model user_pc_history {
+  user_pc_history_id String       @id @default(uuid())
+  username           String
+  duration           Int
+  timestamp          DateTime
+  user_account       user_account @relation(fields: [username], references: [username])
+  pc_number          String
+  pc_machine         pc_machine?  @relation(fields: [pc_number], references: [pc_number])
+
+  @@index([username, timestamp])
+  @@index([timestamp])
+}
+
+model pc_machine {
+  pc_number       String            @id
+  ip_address      String
+  mac_address     String
+  is_active       Boolean           @default(false)
+  pc_session      pc_session[]
+  user_pc_history user_pc_history[]
+}
+
+model pc_session {
+  session_id   String       @id @default(cuid())
+  username     String
+  user_account user_account @relation(fields: [username], references: [username])
+  pc_number    String
+  pc_machine   pc_machine   @relation(fields: [pc_number], references: [pc_number])
+  start_time   DateTime     @default(now())
+  end_time     DateTime?
+  duration     Int?
+
+  @@index([username])
+  @@index([pc_number])
+}
+
+model admin_account {
+  username     String    @id
+  password     String
+  date_created DateTime  @default(now())
+  date_updated DateTime?
+}
+
+model admin_logs {
+  log_id    String   @id @default(uuid())
+  target_id String
+  target    Target?
+  action    Action?
+  desc      String
+  timestamp DateTime @default(now())
+
+  @@index([target_id])
+}
+
+enum Gender {
+  Male
+  Female
+}
+
+enum Target {
+  User
+  PC
+}
+
+enum Action {
+  Create
+  Read
+  Update
+  Delete
+}
