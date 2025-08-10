@@ -7,7 +7,7 @@
     <Compile Update="screens\LockScreen.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="screens\Timer.vb">
+    <Compile Update="screens\TimerModal.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

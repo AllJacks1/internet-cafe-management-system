@@ -18,4 +18,4 @@ D:\Github Repos\internet-cafe-management-system\client\client\obj\Debug\net8.0-w
 D:\Github Repos\internet-cafe-management-system\client\client\bin\Debug\net8.0-windows\client.dll.config
 D:\Github Repos\internet-cafe-management-system\client\client\obj\Debug\net8.0-windows\client.Resources.resources
 D:\Github Repos\internet-cafe-management-system\client\client\obj\Debug\net8.0-windows\client.Dashboard.resources
-D:\Github Repos\internet-cafe-management-system\client\client\obj\Debug\net8.0-windows\client.Timer.resources
+D:\Github Repos\internet-cafe-management-system\client\client\obj\Debug\net8.0-windows\client.TimerModal.resources
