@@ -48,4 +48,8 @@ Public Class LockScreen
             timerForm.Show()
         End If
     End Sub
+
+    Private Sub lbl_timer_Click(sender As Object, e As EventArgs) Handles lbl_timer.Click
+
+    End Sub
 End Class
