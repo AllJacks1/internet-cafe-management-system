@@ -30,6 +30,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Update="screens\TimerModalMember.vb" />
   </ItemGroup>
 
   <ItemGroup>
