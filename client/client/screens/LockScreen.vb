@@ -1,8 +1,8 @@
-﻿Imports System.Reflection.Emit
+﻿
 
 Public Class LockScreen
 
-    Private WithEvents ShutdownTimer As New System.Windows.Forms.Timer()
+    Private WithEvents ShutdownTimer As New Timer()
     Private countdownValue As Integer = 160
     Private Sub TextBox1_Click(sender As Object, e As EventArgs) Handles txt_username.Click
         txt_username.Clear()
@@ -44,8 +44,12 @@ Public Class LockScreen
 
     Private Sub LockScreen_KeyDown(sender As Object, e As KeyEventArgs) Handles Me.KeyDown
         If e.KeyCode = Keys.F1 Then
-            Dim timerForm As New TimerModal
-            timerForm.Show()
+            Dim timerGuest As New TimerModalGuest
+            timerGuest.Show()
+        End If
+        If e.KeyCode = Keys.F2 Then
+            Dim timerMember As New TimerModalMember
+            timerMember.Show()
         End If
     End Sub
 
